@@ -1,0 +1,68 @@
+{
+  "images": [
+    {
+      "name": "1928年地图及武汉局部衍生图",
+      "creator": "US Marine Corps / NARA",
+      "date": "1928-03-15",
+      "licenseDeclaration": "Commons Public Domain / No Copyright—United States",
+      "source": "https://commons.wikimedia.org/wiki/File:Map_of_East_Central_China_-_NARA_-_76028917.jpg",
+      "archive": "https://catalog.archives.gov/id/76028917",
+      "files": [
+        "map-1928-preview.jpg",
+        "wuhan-detail.jpg"
+      ],
+      "derivative": "Resize and Wuhan crop; original geometry preserved; colored paths are authored schematic overlays.",
+      "publishedFiles": [
+        {
+          "path": "preview/assets/map-1928-preview.jpg",
+          "bytes": 1326847,
+          "sha256": "c0ec6869c0b40cbed32b82cd4e9cafaa5594aef1310a2769490a67d1486ab31f"
+        },
+        {
+          "path": "preview/assets/wuhan-detail.jpg",
+          "bytes": 415987,
+          "sha256": "f0f51d994a61b36ff4bb0c3826b05fe7785e7810642d3b37bc1699f0b34ee340"
+        }
+      ]
+    },
+    {
+      "name": "广州出发北伐照片",
+      "creator": "Unknown; source China: The Roots of Madness",
+      "date": "1926-07-09",
+      "licenseDeclaration": "Commons PD-China-expired; source page also declares US public domain before 1931 and CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek_leaving_for_the_Northern_Expedition.png",
+      "files": [
+        "departure-1926.jpg"
+      ],
+      "derivative": "Full-size JPEG conversion from supplied PNG; no new crop.",
+      "publishedFiles": [
+        {
+          "path": "preview/assets/departure-1926.jpg",
+          "bytes": 439553,
+          "sha256": "22ac28cb91639a358a24dd5518bca6bc5c885db297b6ebc596683852928fef65"
+        }
+      ]
+    },
+    {
+      "name": "碧云寺祭祀照片",
+      "creator": "Republic of China government; Commons attributed",
+      "date": "1928-07-06",
+      "licenseDeclaration": "Commons PD-ROC-oldphoto / Public Domain",
+      "source": "https://commons.wikimedia.org/wiki/File:NRA_Generals_Northern_Expedition.jpg",
+      "files": [
+        "biyun-1928.jpg"
+      ],
+      "derivative": "Preview uses original photo bytes.",
+      "publishedFiles": [
+        {
+          "path": "preview/assets/biyun-1928.jpg",
+          "bytes": 139086,
+          "sha256": "be90e85b7275ad361643b37b2b8a690492e14c421f18edd961960aff3f5e529c"
+        }
+      ]
+    }
+  ],
+  "scope": "Rights declarations from the actual source pages captured for this fixed work; not a universal legal opinion",
+  "upstream": "https://github.com/alchaincyf/huashu-art-motion/tree/c191de2293e81294d9b4e2707f732515c504cf3c",
+  "upstreamLicense": "MIT; Copyright (c) 2026 alchaincyf (花叔 · 花生)"
+}

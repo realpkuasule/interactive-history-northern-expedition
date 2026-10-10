@@ -1,0 +1,26 @@
+[
+  {
+    "name": "map-1928",
+    "page": "https://commons.wikimedia.org/wiki/File:Map_of_East_Central_China_-_NARA_-_76028917.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Map_of_East_Central_China_-_NARA_-_76028917.jpg",
+    "file": "map-1928.jpg",
+    "bytes": 87115044,
+    "sha256": "11f563277c73083ee4b3341df3d15d1da7f40ded79c08c6d2cbc8516a7f678d1"
+  },
+  {
+    "name": "departure-1926",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek_leaving_for_the_Northern_Expedition.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Chiang_Kai-shek_leaving_for_the_Northern_Expedition.png",
+    "file": "departure-1926.png",
+    "bytes": 3054063,
+    "sha256": "f59e56400afa39b7a4e008e2ede1a1da837260ee77d69c4496cf1140e6d9910a"
+  },
+  {
+    "name": "biyun-1928",
+    "page": "https://commons.wikimedia.org/wiki/File:NRA_Generals_Northern_Expedition.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/NRA_Generals_Northern_Expedition.jpg",
+    "file": "biyun-1928.jpg",
+    "bytes": 139086,
+    "sha256": "be90e85b7275ad361643b37b2b8a690492e14c421f18edd961960aff3f5e529c"
+  }
+]

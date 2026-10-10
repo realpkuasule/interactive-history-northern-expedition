@@ -1,0 +1,16 @@
+{
+  "scope": "8 phases / 83 authored historical explanations",
+  "fps": 30,
+  "frames": 95937,
+  "mode": "narrated_dynamic_html_only",
+  "voiceId": "Chinese (Mandarin)_Radio_Host",
+  "synthesisSpeed": 1.1,
+  "playbackRate": 1,
+  "encoding": false,
+  "relationshipTypes": [
+    "command",
+    "alliance",
+    "recognition",
+    "conflict"
+  ]
+}

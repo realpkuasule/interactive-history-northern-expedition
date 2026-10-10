@@ -1,0 +1,442 @@
+{
+  "checkedAt": "2026-10-10",
+  "method": "web open/read of source pages; scope-limited corroboration, not all-claims acceptance",
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://history.state.gov/milestones/1899-1913/chinese-rev",
+      "title": "美国国务院历史办公室：The Chinese Revolution of 1911",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S02",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000081",
+      "title": "国立公共资讯图书馆「民国近代史」：二次革命",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S03",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000053",
+      "title": "国立公共资讯图书馆「民国近代史」：洪宪帝制",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S04",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000030",
+      "title": "国立公共资讯图书馆「民国近代史」：府院之争",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S05",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000057",
+      "title": "国立公共资讯图书馆「民国近代史」：军阀割据",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.rmzxw.com.cn/sjzz/syqs/2014/12/09/416008.shtml",
+      "title": "人民政协报／人民政协网：直皖战争前后的“口水战”",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S07",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000105",
+      "title": "国立公共资讯图书馆「民国近代史」：第一次直奉战争",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S08",
+      "url": "https://zh.wikisource.org/wiki/孫文越飛聯合宣言",
+      "title": "《孙文越飞联合宣言》原文，1923-01-26",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.cppcc.gov.cn/zxww/2018/09/03/ARTI1535939330227370.shtml",
+      "title": "全国政协网站：黄埔风云︱孙中山先生缘何创办黄埔军校",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S10",
+      "url": "https://zh.wikipedia.org/zh-cn/第二次直奉戰爭",
+      "title": "维基百科：第二次直奉战争",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.12371.cn/2021/04/07/ARTI1617757753893844.shtml",
+      "title": "新华社／共产党员网：【百个瞬间说百年】1926，誓师北伐",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "official-retrospective",
+      "scope": "广州7月9日誓师；三镇分月取得。不是每条战役精确日序。"
+    },
+    {
+      "id": "S12",
+      "url": "https://chiculture.org.hk/en/photo-story/2768",
+      "title": "中国文化研究院：The Northern Expedition",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "institutional-secondary",
+      "scope": "汉阳9月6日、汉口9月7日、武昌10月10日。南京23日说与同期报告不同，不采纳该日期。"
+    },
+    {
+      "id": "S13",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000015",
+      "title": "国立公共资讯图书馆「民国近代史」：中山舰事件",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S14",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000026",
+      "title": "国立公共资讯图书馆「民国近代史」：汀泗桥战役",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S15",
+      "url": "https://chiculture.org.hk/en/photo-story/2769",
+      "title": "中国文化研究院：Party Purge, Nanjing-Wuhan Split and Reconciliation",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "institutional-secondary",
+      "scope": "南京4月18日政府成立；武汉7月15日分共。"
+    },
+    {
+      "id": "S16",
+      "url": "https://history.state.gov/historicaldocuments/frus1927v02/d7",
+      "title": "FRUS 1927，卷 II，文献 7：1927 年 3—4 月局势报告",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "南京事件3月24日；立场强烈且李大钊4月25日系误报，不当作全页已核验。"
+    },
+    {
+      "id": "S17",
+      "url": "https://history.state.gov/historicaldocuments/frus1927v02/d10",
+      "title": "FRUS 1927，卷 II，文献 10：1927 年 7 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S18",
+      "url": "https://history.state.gov/historicaldocuments/frus1927v02/d11",
+      "title": "FRUS 1927，卷 II，文献 11：1927 年 8 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S19",
+      "url": "https://history.state.gov/historicaldocuments/frus1927v02/d12",
+      "title": "FRUS 1927，卷 II，文献 12：1927 年 9 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S20",
+      "url": "https://history.state.gov/historicaldocuments/frus1928v02/d100",
+      "title": "FRUS 1928，卷 II，文献 100：1928 年 6 月局势报告",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "晋军6月8日入京；白崇禧带武汉部队后来到华北；张6月3日离京、4日火车遇炸。未知策划者的同期记述不支持后来的全部归因。"
+    },
+    {
+      "id": "S21",
+      "url": "https://chiculture.org.hk/en/photo-story/2770",
+      "title": "中国文化研究院：Japan’s Obstruction to the Northern Expedition",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S22",
+      "url": "https://chiculture.org.hk/en/photo-story/2771",
+      "title": "中国文化研究院：Northeast Flag Replacement and Chinese Reunification",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "institutional-secondary",
+      "scope": "东北12月29日易帜，中央承认改变；不证明北伐军攻到沈阳。"
+    },
+    {
+      "id": "S23",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000017",
+      "title": "国立公共资讯图书馆「民国近代史」：中原大战",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S24",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02/ch19",
+      "title": "FRUS 1929，卷 II：政治分裂与内战，文献 55—78",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S25",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d6",
+      "title": "FRUS 1930，卷 II，文献 6：1930 年 5 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S26",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d17",
+      "title": "FRUS 1930，卷 II，文献 17：1930 年 7 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S27",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d24",
+      "title": "FRUS 1930，卷 II，文献 24：张学良干预华北的报道",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S28",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d25",
+      "title": "FRUS 1930，卷 II，文献 25：1930 年 9 月局势报告",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "北平政府9月1日设置、9月9日宣誓；张9月18日通电，19日首批乘车、22日先头到北平；均非战争当日结束。"
+    },
+    {
+      "id": "S29",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d26",
+      "title": "FRUS 1930，卷 II，文献 26：1930 年 10 月局势报告",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "10月战事已进入收束和政治安排；不是9月18日结束。"
+    },
+    {
+      "id": "S30",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d27",
+      "title": "FRUS 1930，卷 II，文献 27：1930 年 11 月局势报告",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "阎冯11月第一周宣布退隐；部分部队仍保留；地方体系未消失。"
+    },
+    {
+      "id": "S31",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000036",
+      "title": "国立公共资讯图书馆「民国近代史」：马日事变",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S32",
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000034",
+      "title": "国立公共资讯图书馆「民国近代史」：武汉分共",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S33",
+      "url": "https://zh.wikipedia.org/wiki/五原誓師",
+      "title": "维基百科：五原誓师",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S34",
+      "url": "https://zh.wikipedia.org/wiki/孫傳芳",
+      "title": "维基百科：孙传芳",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S35",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02/d61",
+      "title": "FRUS 1929，卷 II，文献 61：1929 年 1 月局势报告",
+      "status": "scoped_web_read_20261010",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "宋子文1月11日财政集中提案；会议1月1—25日；报告对执行能力存疑。"
+    },
+    {
+      "id": "S36",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02/d64",
+      "title": "FRUS 1929，卷 II，文献 64：1929 年 3 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S37",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02/d69",
+      "title": "FRUS 1929，卷 II，文献 69：1929 年 5 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S38",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02/d78",
+      "title": "FRUS 1929，卷 II，文献 78：1929 年 12 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S39",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02",
+      "title": "FRUS 1929，卷 II：中东路冲突，文献 79—409",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S40",
+      "url": "https://kejiao.cntv.cn/nature/beiyangjunfa/classpage/video/20091220/100623.shtml",
+      "title": "央视网：北洋军阀（三）——张勋复辟",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S41",
+      "url": "https://zh.wikipedia.org/wiki/南昌起義",
+      "title": "维基百科：南昌起义",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S42",
+      "url": "https://zh.wikipedia.org/wiki/八七会议",
+      "title": "维基百科：八七会议",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S43",
+      "url": "https://zh.wikipedia.org/wiki/秋收起义",
+      "title": "维基百科：秋收起义",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S44",
+      "url": "https://zh.wikipedia.org/wiki/广州起义_(1927年)",
+      "title": "维基百科：广州起义（1927 年）",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S45",
+      "url": "https://history.state.gov/historicaldocuments/frus1927v02/d14",
+      "title": "FRUS 1927，卷 II，文献 14：1927 年 11 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S46",
+      "url": "https://history.state.gov/historicaldocuments/frus1929v02/d70",
+      "title": "FRUS 1929，卷 II，文献 70：1929 年 6 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S47",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d21",
+      "title": "FRUS 1930，卷 II，文献 21：1930 年 8 月局势报告",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S48",
+      "url": "https://history.state.gov/historicaldocuments/frus1930v02/d19",
+      "title": "FRUS 1930，卷 II，文献 19：北平另组政府的报告",
+      "status": "citation_mismatch_corrected",
+      "sourceType": "contemporary-diplomatic-report",
+      "scope": "原标题过度概括：d19只谈顾维钧及东北态度，非北平政府成立的直接报告；e081改用S28。"
+    },
+    {
+      "id": "S49",
+      "url": "https://zh.wikipedia.org/wiki/二七大罷工",
+      "title": "维基百科：二七大罢工",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S50",
+      "url": "https://zh.wikipedia.org/wiki/中国共产党第一次全国代表大会",
+      "title": "维基百科：中国共产党第一次全国代表大会",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S51",
+      "url": "https://zh.wikipedia.org/wiki/五四运动",
+      "title": "维基百科：五四运动",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S52",
+      "url": "https://zh.wikipedia.org/wiki/郭松龄",
+      "title": "维基百科：郭松龄",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    },
+    {
+      "id": "S53",
+      "url": "https://zh.wikipedia.org/wiki/馮玉祥",
+      "title": "维基百科：冯玉祥",
+      "status": "inherited_not_independently_verified_this_round",
+      "sourceType": "inherited",
+      "scope": "保留原引用，不声称本轮独立核验；父任务补充与本轮核阅分开记录。"
+    }
+  ],
+  "supplements": [
+    {
+      "id": "G01",
+      "url": "https://www.gz.gov.cn/zlgz/tsgz/content/post_9077805.html",
+      "status": "scoped_web_read_20261010",
+      "scope": "粤汉1936年全线贯通；1926—28不画成连续通车铁路。",
+      "sourceType": "official-republication-of-retrospective"
+    }
+  ],
+  "parentSupplement": "../evidence/verified-supplement.json",
+  "unverifiedCount": 42,
+  "acceptance": "pending user content review"
+}
