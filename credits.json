@@ -64,5 +64,21 @@
   ],
   "scope": "Rights declarations from the actual source pages captured for this fixed work; not a universal legal opinion",
   "upstream": "https://github.com/alchaincyf/huashu-art-motion/tree/c191de2293e81294d9b4e2707f732515c504cf3c",
-  "upstreamLicense": "MIT; Copyright (c) 2026 alchaincyf (花叔 · 花生)"
+  "upstreamLicense": "MIT; Copyright (c) 2026 alchaincyf (花叔 · 花生)",
+  "audioDelivery": {
+    "buildIdentity": "9e18d8115ec9fd97cba192b58f288e1cb208e577a85e29ed9b0fb9bc99f1e5ac",
+    "background": [
+      {
+        "path": "audio/background-music.flac",
+        "bytes": 27207343,
+        "sha256": "ce38e95697ab2b58d4b906a8474a7e4ac70bed8fa623e0ff9fcff5e57c45e9c9"
+      },
+      {
+        "path": "audio/background-sfx.flac",
+        "bytes": 697547,
+        "sha256": "b6008c6deca3c76bbc3044499d1a35f25b108ce5f03cf46d6618268a504d94ab"
+      }
+    ],
+    "license": "原创配乐与音效沿用已授权并经听审的资产；素材来源、生成及接纳记录独立保留。"
+  }
 }

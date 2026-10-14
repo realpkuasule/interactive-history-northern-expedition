@@ -1,4 +1,8 @@
-import './voice-bridge.js';
+import {voiceReady,updateVoice} from './voice-bridge.js';
+await voiceReady;
+window.historyVoice={at(frame){updateVoice(frame);}};
+const captionPlan=await(await fetch('caption-plan.json')).json();
+
 const data=await(await fetch('content.json')).json();
 const font=new FontFace('HistoryText','url(font.ttf)');await font.load();document.fonts.add(font);
 const load=async url=>{const im=new Image();im.src=url;await im.decode();return im};
@@ -56,4 +60,22 @@ function draw(frame){if(!Number.isSafeInteger(frame)||frame<0||frame>=data.frame
  c.fillStyle=P.paper;c.fillRect(1230,92,690,988);rule(1264,126,600);text(n.date,1280,169,29,P.red,700);let y=wrap(n.title,1280,235,585,40,P.ink,4)+22;rule(1280,y,575);y+=47;
  const starts=n.speechSectionStarts;const key=starts?(t<starts.why?'what':t<starts.after?'why':t<starts.distinction?'after':'distinction'):(u<.28?'what':u<.52?'why':u<.76?'after':'distinction'),step={what:'发生了什么',why:'相关背景',after:'后续影响',distinction:'需要区分'}[key];text(step,1280,y,23,P.red,700);y+=46;const endY=wrap(n[key],1280,y,575,24,P.ink,10);if(endY>834)throw Error('TEXT_TIMELINE_OVERLAP:'+n.id);
  const chapterNodes=data.nodes.filter(x=>x.chapter===n.chapter);['政治','军事','社会／外交'].forEach((label,k)=>{const yy=860+k*40;text(label,1280,yy,18);rule(1390,yy-8,435,'#a9b5b2');for(const [i,a]of chapterNodes.entries()){const lane=a.kind==='政治'?0:a.kind==='军事'?1:2;if(lane!==k)continue;const xx=1390+i*435/Math.max(1,chapterNodes.length-1);c.fillStyle=a.index===n.index?P.red:P.ink;c.fillRect(xx-4,yy-14,a.index===n.index?10:5,12)}});text('本章节点顺序 · 不按日期间隔等比',1390,978,17);seal(n.kind,1750,1005,28,MO.seg(t,.3,.8));text('原引 '+n.sources.map(x=>'S'+x).join(' · '),1280,1042,21);window.parent.postMessage({source:'history-atlas',frame,index:n.index},location.origin);window.historyAtlas={frame,localSeconds:t,u,milliseconds:ms,node:n.id,visual:n.visual};return window.historyAtlas}
-window.historyComposition={draw,data};draw(0);window.__historyResolve();
+
+
+const output=document.querySelector('canvas').getContext('2d');let captionsVisible=true,currentFrame=0;
+function drawOutput(frame){
+ currentFrame=frame;output.fillStyle='#f4f1e8';output.fillRect(0,0,1920,1080);
+ output.save();output.translate(96,0);output.scale(0.9,0.9);const state=draw(frame);output.restore();
+ output.fillStyle='#172d33';output.fillRect(0,972,1920,108);
+ const cue=captionPlan.cues.find(q=>frame>=q.startFrame&&frame<q.endFrame);
+ if(captionsVisible&&cue){
+  output.font='400 40px HistoryText';output.textAlign='center';output.fillStyle='#f4f1e8';
+  const lines=[];let line='';for(const ch of cue.text){if(output.measureText(line+ch).width>1792){lines.push(line);line='';}line+=ch;}if(line)lines.push(line);
+  if(lines.length>2)throw Error('CAPTION_INTERNAL_CLIP:'+cue.id);
+  lines.forEach((s,i)=>output.fillText(s,960,lines.length===1?1038:1014+i*48));
+ }
+ window.historyCaption={frame,cueId:cue?.id??null,text:captionsVisible?cue?.text??'':'',visible:captionsVisible,placement:'canvas'};
+ return state;
+}
+window.historyComposition={draw:drawOutput,data,setCaptionsVisible(value){captionsVisible=Boolean(value);return drawOutput(currentFrame);}};
+drawOutput(0);window.historyReady();

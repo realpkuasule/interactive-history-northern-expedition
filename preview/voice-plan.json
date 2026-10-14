@@ -1168,6 +1168,20 @@
         "path": "audio/e083.mp3",
         "sha256": "84fece4baa6f3db8b767ba12ecdc7bfd8ca20c6d61861884aa1a8d9b8deb578d"
       }
+    },
+    {
+      "id": "background-music",
+      "file": {
+        "path": "audio/background-music.flac",
+        "sha256": "ce38e95697ab2b58d4b906a8474a7e4ac70bed8fa623e0ff9fcff5e57c45e9c9"
+      }
+    },
+    {
+      "id": "background-sfx",
+      "file": {
+        "path": "audio/background-sfx.flac",
+        "sha256": "b6008c6deca3c76bbc3044499d1a35f25b108ce5f03cf46d6618268a504d94ab"
+      }
     }
   ],
   "captions": {
@@ -26502,5 +26516,17 @@
     ]
   },
   "status": "complete",
-  "coverage": 83
+  "coverage": 83,
+  "background": [
+    {
+      "kind": "music",
+      "assetId": "background-music",
+      "frames": 95937
+    },
+    {
+      "kind": "sfx",
+      "assetId": "background-sfx",
+      "frames": 95937
+    }
+  ]
 }
